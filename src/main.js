@@ -7,9 +7,8 @@ const FRAME_RATE = 45
 // game bottlenecks
 
 // neural network settings
-const MUTATION_RATE = 0.5
-const MUTATION_AMOUNT = 3
-const ELITISM = Math.round(0.2 * GAMES)
+const MUTATION_RATE = 0.3
+const ELITISM = Math.round(0.1 * GAMES)
 
 // score settings
 // au début j'avais mis 1 et -1 mais du coup ça n'allait pas pour les boucles infin
@@ -28,8 +27,7 @@ Config.warnings = false
 const neat = new Neat(6, 2, null, {
     popsize: GAMES,
     elitism: ELITISM,
-    mutationRate: MUTATION_RATE,
-    mutationAmount: MUTATION_AMOUNT
+    mutationRate: MUTATION_RATE
   }
 )
 
