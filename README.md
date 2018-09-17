@@ -2,7 +2,7 @@
 This is an attempt to make a neural network based on a genetic algorithm
 
 ## Getting Started
-To run this program, you just have to have javascript activate in your browser then open index.html
+To run this program, you just have to activate javascript in your browser (if it's desactivate) and then open index.html
 
 ## Acknowledgments
 
