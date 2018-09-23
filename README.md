@@ -1,4 +1,4 @@
-# snake-AI
+# Snake-AI
 This is an attempt to make a neural network based on a genetic algorithm
 
 ## Getting Started
