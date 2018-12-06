@@ -23,8 +23,11 @@ Installation
 How to use it
 =============
 Donwload the project or clone it with ``git clone``
+
 Go to the ``src/ca377``
+
 And run the following command to run the server localy: ``python3 manage.py runserver``
+
 The server is running at the adress : ``http://127.0.0.1:8000/eatatdcu/``
 
 Key features
