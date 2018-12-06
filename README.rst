@@ -92,7 +92,7 @@ def part5_setup(self):
  And here is one exemple for two tests ::
  
  def test_rest_retrieval_case(self):
-        """ Test retrieval of restaurants for a campus (case-insensitive)"""
+        # Test retrieval of restaurants for a campus (case-insensitive)
         self.part3_setup()
         response = self.client.get(reverse('eatatdcu:restaurants'),{'campus':'Test Campus'})
         self.assertEqual(response.status_code,200)
@@ -100,7 +100,7 @@ def part5_setup(self):
         self.assertContains(response,'r2')
         self.assertContains(response,'r3')  
     def test_rest_empty_retrieval(self):
-        """ Test empty retrieval of restaurants for a campus """
+        # Test empty retrieval of restaurants for a campus
         self.part3_setup()
         response = self.client.get(reverse('eatatdcu:restaurants'),{'campus':'another test campus'})
         self.assertEqual(response.status_code,200)
