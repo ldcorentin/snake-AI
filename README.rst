@@ -88,7 +88,7 @@ Here is an exemple of how the database is created ::
                 rest4.save()
         
  
- And here is one exemple for two tests ::
+And here is one exemple for two tests ::
  
  def test_rest_retrieval_case(self):
         # Test retrieval of restaurants for a campus (case-insensitive)
