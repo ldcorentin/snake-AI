@@ -4,8 +4,6 @@ Eat at DCU
 
 This is a web application_ for checking availability in DCU’s restaurants and cafes
 
-|Supported_versions_of_Python| |Supported_versions_of_Django| |License|
-
 Django MarkdownX
 ================
 I didn't use the classis markdown, I used Django MarkdownX. It is a comprehensive Markdown_ plugin built for Django_, the renowned high-level Python web framework, with flexibility, extensibility, and ease-of-use at its core.
@@ -13,6 +11,15 @@ I didn't use the classis markdown, I used Django MarkdownX. It is a comprehensiv
 Motivation
 ==========
 This project was realized as part of my Erasmus exchange with DCU_
+
+Requirements
+============
+|Supported_versions_of_Python| |Supported_versions_of_Django| |License|
+
+Installation
+============
+``pip install django==1.11``
+
 
 Key features
 ============
