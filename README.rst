@@ -108,12 +108,22 @@ And here is one exemple for two tests ::
         self.assertEqual(response.status_code,200)
         self.assertContains(response,'No restaurants found')
  
+Credits
+=======
+* The bootstrap from w3schools_
+* The django_ documentation
+* Pythonanywhere_ for the deployment
+* Jennifer Foster https://www.computing.dcu.ie/~jfoster/
+
+`docs <http://www.django-rest-framework.org/api-guide/filtering>`_.
 
 
 .. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 .. _Markdown: https://en.wikipedia.org/wiki/Markdown
 .. _Django: https://www.djangoproject.com 
-.. _DCU: https://dcu.ie
+.. _DCU: https://dcu.ie 
+.. _w3schools: https://www.w3schools.com/
+.. _Pythonanywhere: https://www.pythonanywhere.com 
 
 .. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 
