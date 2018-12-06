@@ -22,21 +22,21 @@ Donwload the project or clone it with ``git clone``.
 
 To install django run the following coommand : 
 
-``pip install django==1.11``
+``$ pip install django==1.11``
 
 Before running the application we need to create the needed DB tables (from the ``src/ca377`` folder) :
 
-``python3 manage.py makemigrations eatatdcu``
+``$ python3 manage.py makemigrations eatatdcu``
 
-``python3 manage.py migrate``
+``$ python3 manage.py migrate``
 
 The next step is to populate the database by running the following command :
 
-``python3 manage.py shell``
+``$ python3 manage.py shell``
 
 And inside the shell, run the following command :
 
-``import load_db_data``
+``>>> import load_db_data``
 
 Note that these scripts load data from csv files in the data folder.
 
@@ -45,12 +45,16 @@ How to use it
 
 Go to the folder ``src/ca377``.
 
-And run the following command to run the server localy: ``python3 manage.py runserver``.
+And run the following command to run the server localy: ``$ python3 manage.py runserver``.
 
 The server is running at this adress : ``http://127.0.0.1:8000/eatatdcu/``.
 
 API Reference
 =============
+
+Tests
+=====
+
 
 Key features
 ============
