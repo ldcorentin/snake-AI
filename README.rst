@@ -18,11 +18,12 @@ Requirements
 
 Installation
 ============
-``pip install django==1.11``
+Donwload the project or clone it with ``git clone``
+
+To install django run the following coommand : ``pip install django==1.11``
 
 How to use it
 =============
-Donwload the project or clone it with ``git clone``
 
 Go to the ``src/ca377``
 
