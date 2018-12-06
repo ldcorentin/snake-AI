@@ -113,7 +113,7 @@ Credits
 * The bootstrap from w3schools_.
 * The django_ documentation.
 * Pythonanywhere_ for the deployment.
-* `Jennifer Foster <http://www.django-rest-framework.org/api-guide/filtering>`_.
+* `Jennifer Foster <https://www.computing.dcu.ie/~jfoster/>`_ & `Marija Bezbradica <https://www.computing.dcu.ie/~mbezbradica/>`_
 
 
 
