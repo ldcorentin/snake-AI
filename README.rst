@@ -40,6 +40,6 @@ Preview
 .. _Django: https://www.djangoproject.com
 .. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 
-.. |Supported_versions_of_Python| image:: https://img.shields.io/pypi/pyversions/django-markdownx.svg
-.. |Supported_versions_of_Django| image:: https://img.shields.io/badge/Django-1.8,%201.9,%201.10,%201.11,%202.0,%202.1-green.svg
+.. |Supported_versions_of_Python| image:: https://img.shields.io/badge/python-3.6-green.svg
+.. |Supported_versions_of_Django| image:: https://img.shields.io/badge/django-1.11-green.svg
 .. |License| image:: https://img.shields.io/pypi/l/django-markdownx.svg
