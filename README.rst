@@ -6,10 +6,13 @@ This is a web application_ for checking availability in DCU’s restaurants and 
 
 |Supported_versions_of_Python| |Supported_versions_of_Django| |License|
 
-Documentation
-=============
+Django MarkdownX
+================
 I didn't use the classis markdown, I used Django MarkdownX. It is a comprehensive Markdown_ plugin built for Django_, the renowned high-level Python web framework, with flexibility, extensibility, and ease-of-use at its core.
 
+Motivation
+==========
+This project was realized as part of my Erasmus exchange with DCU_
 
 Key features
 ============
@@ -36,8 +39,11 @@ Preview
 
 *(using Bootstrap for layout and styling)*
 
+.. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 .. _Markdown: https://en.wikipedia.org/wiki/Markdown
-.. _Django: https://www.djangoproject.com
+.. _Django: https://www.djangoproject.com 
+.. _DCU: https://dcu.ie
+
 .. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 
 .. |Supported_versions_of_Python| image:: https://img.shields.io/badge/python-3.6-green.svg
