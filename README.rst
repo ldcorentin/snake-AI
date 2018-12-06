@@ -71,7 +71,9 @@ $ python3 manage.py test eatatdcu
 Here is an exemple of how the database is created ::
 
         def part5_setup(self):
+        
                 # Sets up a test database - for testing part five 
+                
                 campus1 = Campus(1,'test campus')
                 campus2 = Campus(2,'another test campus')
                 campus3 = Campus(3,'yet another test campus')
@@ -98,7 +100,8 @@ And here is one exemple for two tests ::
         self.assertContains(response,'r1')
         self.assertContains(response,'r2')
         self.assertContains(response,'r3')  
-    def test_rest_empty_retrieval(self):
+        
+ def test_rest_empty_retrieval(self):
         # Test empty retrieval of restaurants for a campus
         self.part3_setup()
         response = self.client.get(reverse('eatatdcu:restaurants'),{'campus':'another test campus'})
