@@ -71,9 +71,7 @@ $ python3 manage.py test eatatdcu
 Here is an exemple of how the database is created ::
 
         def part5_setup(self):
- 
                 # Sets up a test database - for testing part five 
-           
                 campus1 = Campus(1,'test campus')
                 campus2 = Campus(2,'another test campus')
                 campus3 = Campus(3,'yet another test campus')
@@ -89,6 +87,7 @@ Here is an exemple of how the database is created ::
                 rest3.save()
                 rest4.save()
         
+ 
  And here is one exemple for two tests ::
  
  def test_rest_retrieval_case(self):
