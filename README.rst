@@ -1,12 +1,10 @@
-# Eat at DCU
+==========
+Eat at DCU
+==========
 
-================
-Django MarkdownX
-================
+This is a [web application](http://ledevec2.pythonanywhere.com/eatatdcu/) for checking availability in DCU’s restaurants and cafes
 
 |PyPi_Version| |PyPi_Status| |Build_Status| |Format| |Supported_versions_of_Python| |Supported_versions_of_Django| |License|
-
-Django MarkdownX is a comprehensive Markdown_ plugin built for Django_, the renowned high-level Python web framework, with flexibility, extensibility, and ease-of-use at its core.
 
 Documentation
 =============
