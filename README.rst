@@ -110,12 +110,12 @@ And here is one exemple for two tests ::
  
 Credits
 =======
-* The bootstrap from w3schools_
-* The django_ documentation
-* Pythonanywhere_ for the deployment
-* Jennifer Foster https://www.computing.dcu.ie/~jfoster/
+* The bootstrap from w3schools_.
+* The django_ documentation.
+* Pythonanywhere_ for the deployment.
+* `Jennifer Foster <http://www.django-rest-framework.org/api-guide/filtering>`_.
 
-`docs <http://www.django-rest-framework.org/api-guide/filtering>`_.
+
 
 
 .. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
