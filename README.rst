@@ -2,13 +2,13 @@
 Eat at DCU
 ==========
 
-This is a [web application](http://ledevec2.pythonanywhere.com/eatatdcu/) for checking availability in DCU’s restaurants and cafes
+This is a web application_ for checking availability in DCU’s restaurants and cafes
 
-|PyPi_Version| |PyPi_Status| |Build_Status| |Format| |Supported_versions_of_Python| |Supported_versions_of_Django| |License|
+|Supported_versions_of_Python| |Supported_versions_of_Django| |License|
 
 Documentation
 =============
-https://neutronx.github.io/django-markdownx/
+I didn't use the classis markdown, I used Django MarkdownX. It is a comprehensive Markdown_ plugin built for Django_, the renowned high-level Python web framework, with flexibility, extensibility, and ease-of-use at its core.
 
 
 Key features
@@ -38,11 +38,8 @@ Preview
 
 .. _Markdown: https://en.wikipedia.org/wiki/Markdown
 .. _Django: https://www.djangoproject.com
+.. _application: http://ledevec2.pythonanywhere.com/eatatdcu/
 
-.. |PyPi_Version| image:: https://img.shields.io/pypi/v/django-markdownx.svg
-.. |PyPi_Status| image:: https://img.shields.io/pypi/status/django-markdownx.svg
-.. |Build_Status| image:: https://img.shields.io/travis/neutronX/django-markdownx.svg
-.. |Format| image:: https://img.shields.io/pypi/format/django-markdownx.svg
 .. |Supported_versions_of_Python| image:: https://img.shields.io/pypi/pyversions/django-markdownx.svg
 .. |Supported_versions_of_Django| image:: https://img.shields.io/badge/Django-1.8,%201.9,%201.10,%201.11,%202.0,%202.1-green.svg
 .. |License| image:: https://img.shields.io/pypi/l/django-markdownx.svg
